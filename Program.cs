@@ -8,19 +8,19 @@
 // // 918 -> 1
 
 
-// System.Console.WriteLine("Введите число");
-// int a = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите число");
+ int a = Convert.ToInt32(Console.ReadLine());
 
 
-// if ((Math.Abs(a)) > 100)
-// {
-//     int b;
-// b = (a / 10) % 10;
-// System.Console.WriteLine(b);
-// }
-// else {
-//     System.Console.WriteLine(" число не трёхзначное");
-// }
+if ((Math.Abs(a)) > 100)
+ {
+    int b;
+ b = (a / 10) % 10;
+ System.Console.WriteLine(b);
+ }
+ else {
+    System.Console.WriteLine(" число не трёхзначное");
+ }
 
 
 
@@ -35,22 +35,20 @@
 
 
 
-
-
-// System.Console.WriteLine("Введите число");
-//  int numb = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите число");
+int numb = Convert.ToInt32(Console.ReadLine());
  
-// if (numb<100) 
-// System.Console.WriteLine("В числе нет третьего знака"); 
+if (numb<100) 
+System.Console.WriteLine("В числе нет третьего знака"); 
 
-// else
-// {
-//     while (numb>999)
-// {
-// numb = numb/10;
-//  }
-// int third=numb%10;
-//  System.Console.WriteLine(third);};
+else
+ {
+     while (numb>999)
+{
+numb = numb/10;
+ }
+ int third=numb%10;
+ System.Console.WriteLine(third);};
 
 
 // // Задача 15: Напишите программу,
