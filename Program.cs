@@ -33,26 +33,24 @@
 
 // // 32679 -> 6
 
+
+
+
+
 System.Console.WriteLine("Введите число");
+ int numb = Convert.ToInt32(Console.ReadLine());
+ 
+if (numb<100) 
+System.Console.WriteLine("В числе нет третьего знака"); 
 
-string chislo = Console.ReadLine();
-
-int length = chislo.Length;
-
-int number = Convert.ToInt32(Console.ReadLine());
-
-if (length > 3)
+else
 {
-    int stepen = length-3;
-
-    double third = (number/Math.Pow(10, stepen))%10;
-
-}
-else if (length ==3) double third = number%10;
-
-else System.Console.WriteLine($"В числе {chislo} третьей цифры нет");
-
-
+    while (numb>999)
+{
+numb = numb/10;
+ }
+int third=numb%10;
+ System.Console.WriteLine(third);};
 
 
 // // Задача 15: Напишите программу,
